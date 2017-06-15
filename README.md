@@ -17,4 +17,6 @@ To display live cricket scores on nokia 5110 using nodemcu.
 
 [Cric Api](http://www.cricapi.com)
 
+### Demo :
+
 <img src="images/score1.jpg">
