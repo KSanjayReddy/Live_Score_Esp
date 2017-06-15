@@ -1,5 +1,5 @@
 # Live_ScoreBoard_Esp
-To display live cricket scores on nokia 5110 using nodemcu
+To display live cricket scores on nokia 5110 using nodemcu.
 
 ## Description:
 
@@ -7,3 +7,8 @@ To display live cricket scores on nokia 5110 using nodemcu
 
 * nodemcu
 * Nokia 5110 GLCD
+
+### Libraries :
+
+* (Adafruit GFX Graphics)['https://github.com/adafruit/Adafruit-GFX-Library']
+* (Adafruit PCD8544 Nokia 5110 LCD)['https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library']
