@@ -3,8 +3,8 @@
 #include <Adafruit_PCD8544.h>
 #include <ESP8266WiFi.h>
 String score=" ";
-const char* ssid     = "Redmi";
-const char* password = "12345678";
+const char* ssid     = "Zairza Net";
+const char* password = "pronoob17";
 const char* host = "cricscore-api.appspot.com"; 
 
 // ESP8266 Software SPI (slower updates, more flexible pin options):
@@ -92,7 +92,7 @@ void loop() {
 
   // We now create a URI for the request
   
-  String url = "/csa?id=1022373"; 
+  String url = "/csa?id=1022375"; 
   Serial.print("Requesting URL: ");
   Serial.println(url);
  // This will send the request to the server
@@ -125,10 +125,11 @@ void loop() {
       score.trim();
       Serial.println(score);
       delay(500);
+      display.clearDisplay();
       display.setTextSize(0.5);
       display.setTextColor(BLACK);
       display.setCursor(0,0);
-       display.println("IND vs BAN");
+       display.println("IND vs PAK");
         //display.setTextColor(WHITE, BLACK); // 'inverted' text
        //display.println(3.141592);
        display.setTextSize(2);
@@ -138,7 +139,7 @@ void loop() {
        display.print("Overs: ");
        display.println(overs);
        display.println("");
-       display.println("Ban-264/7 (50) "); 
+       display.println("Ind yet to Bat "); 
        display.display();
        delay(2000);
     }
