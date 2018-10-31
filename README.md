@@ -19,7 +19,7 @@ To display live cricket scores on nokia 5110 using nodemcu.
 
 ### Demo :
 
-<img src="images/score1.jpg">
+<img src="Documentation/score1.jpg">
 
 Made with :heart: by [Chinmay Das](https://github.com/chinmaydas96/) and [Sanjay Reddy](https://github.com/KSanjayReddy/)
 
